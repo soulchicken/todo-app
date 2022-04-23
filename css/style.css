@@ -1,0 +1,24 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #0005;
+    background-blend-mode: darken;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 20vh;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
