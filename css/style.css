@@ -23,3 +23,22 @@ body {
     padding: 1rem;
 }
 
+#todo-form input {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 2px whitesmoke;
+    width: 20rem;
+    height: 2.5rem;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+input:focus {
+    outline:none;
+}
+
+#todo-form input::placeholder {
+    color: rgba(245, 245, 245, 0.584);
+    font-size: 1rem;
+}
