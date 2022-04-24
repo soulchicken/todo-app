@@ -56,3 +56,16 @@ input::placeholder {
     color: rgba(245, 245, 245, 0.584);
     font-size: 1rem;
 }
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem;
+    border: double 2px rgba(245, 245, 245, 0.8);
+    color: rgba(245, 245, 245, 0.8);
+}
+
+#quote-line {
+    font-size: 1.2rem;
+}
